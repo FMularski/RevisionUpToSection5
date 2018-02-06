@@ -10,7 +10,8 @@ namespace RevisionUpToSection5
     {
         static void Main(string[] args)
         {
-
+            var course = new Course();
+            course.Level = CourseLevel.Advanced;    // 3
         }
     }
 }
